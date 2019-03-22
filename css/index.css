@@ -258,7 +258,7 @@ footer nav a {
     padding-bottom: 20px;  
 }
 
-.text-container h2 {
+.text-container h2, .product-container h2 {
     padding-top: 16px;
 }
 
@@ -267,7 +267,7 @@ footer nav a {
 } 
 
 
-.about-content {
+.about-content, .product-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -277,4 +277,12 @@ footer nav a {
 .dashed {
     border-bottom: 1px dashed black; 
     padding-top: 20px;
+}
+
+/********** Products page *************/
+
+.product-container {
+    width: 30%;
+    /* padding: 0 1%; */
+    padding-bottom: 20px;  
 }
