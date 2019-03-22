@@ -263,3 +263,8 @@ footer nav a {
     justify-content: space-evenly;
     padding-top: 30px;
 }
+
+.dashed {
+    border-bottom: 1px dashed black; 
+    padding-top: 20px;
+}
