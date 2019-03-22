@@ -262,6 +262,11 @@ footer nav a {
     padding-top: 16px;
 }
 
+.text-container.text-container--bottom{
+    padding-top: 40px;
+} 
+
+
 .about-content {
     display: flex;
     flex-wrap: wrap;
