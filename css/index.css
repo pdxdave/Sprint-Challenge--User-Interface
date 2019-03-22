@@ -71,6 +71,55 @@ p {
     margin: 0 auto;
 }
 
+
+/******* Navigation **********/
+
+.header {
+    height: 100px;;
+    display: flex;
+    
+    align-items: baseline;
+    justify-content: space-between;
+    line-height: 120px;
+}
+
+.header-img {
+   background-image: url('../img/lambda-black.png');
+   background-repeat: no-repeat;
+   width: 157px;
+   height: 40px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav li:not(:last-child){
+   margin-right: 85px;
+}
+
+.nav li:last-child {
+   margin-right: 40px;
+}
+.nav li{
+   list-style-type: none;
+   cursor: pointer;
+}
+
+.nav li a{
+   text-decoration: none;
+   font-size: .9em;
+   color: black;
+}
+
+.active {
+    border-bottom: 2px solid orangered;
+}
+
+/********* End of Navigation ******/
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
