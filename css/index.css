@@ -243,7 +243,7 @@ footer nav a {
     background-color: black;
 }
 
-.about-intro {
+.about-intro, .product-intro {
     padding: 20px;
     border-bottom: 1px dashed black;
 }
@@ -258,7 +258,10 @@ footer nav a {
     padding-bottom: 20px;  
 }
 
-.text-container h2, .product-container h2 {
+.text-container h2, 
+.product-container h2,
+.product-container--bottom h2
+{
     padding-top: 16px;
 }
 
@@ -284,5 +287,10 @@ footer nav a {
 .product-container {
     width: 30%;
     /* padding: 0 1%; */
+    padding-bottom: 20px;  
+}
+.product-container--bottom {
+    width: 48%;
+    padding: 0 1%;
     padding-bottom: 20px;  
 }
