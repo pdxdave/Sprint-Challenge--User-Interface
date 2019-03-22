@@ -228,6 +228,20 @@ footer nav a {
 }
 
 /******** About page ***********/
+.btn {
+    font-size: 1rem;
+    padding: 8px 20px;
+    margin-top: 24px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background: transparent;
+    cursor: pointer;
+    transition: background .3s ease-in;
+}
+.btn:hover {
+    color: #fff;
+    background-color: black;
+}
 
 .about-intro {
     padding: 20px;
